@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap_menu_3section</title>
+    <link rel="stylesheet" href="style_menu_3sections.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head> 
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <!--collapse помогает открывать, то, что находится в data-target-->
+              <span class="sr-only">Навигация</span> <!--это можно не писать, помогает браузеру-->
+              <span class="icon-bar"></span> <!--это полоска на кнопке меню-->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button> <!--описание кнопки, когда меню сжимается-->
+        <a class="navbar-brand" href="#">itProger</a> <!--это брэнд-->
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display: block; position: static; margin-bottom: 5px; *width: 180px;">
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Страны</a>
+    <ul class="dropdown-menu">
+      <li class="dropdown-submenu">
+        <a href="#">А</a>
+        <ul class="dropdown-menu">
+          <li><a href="">Алжир</a></li>
+          <li><a href="">Ангола</a></li>
+        </ul>
+      </li>
+      <li class="dropdown-submenu">
+        <a href="#">Б</a>
+        <ul class="dropdown-menu">
+          <li><a href="">Бенин</a></li>
+              <li><a href="">Ботсвана</a></li>
+              <li><a href="">Буркина-Фасо</a></li>
+              <li><a href="">Бурунди</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

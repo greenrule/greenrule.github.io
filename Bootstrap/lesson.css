@@ -1,0 +1,31 @@
+.col-xs-12.col-sm-9.col-md-4.col-lg-6 {
+	background: #00CCFF;
+}
+.col-xs-12.col-sm-3.col-md-8.col-lg-6 {
+	background: #CC00FF;
+}
+.col-lg-5.col-lg-push-7 {
+	background: red;
+}
+
+.col-lg-7.col-lg-pull-5 {
+	background: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

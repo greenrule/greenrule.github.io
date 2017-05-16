@@ -1,0 +1,73 @@
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.photo_title {
+	font-family: Lato;
+font-weight: 400;
+text-align: center;
+}
+
+h1 {
+	color:  #2d3950;
+	font-size: 41px;
+	margin-bottom: 22px;
+}
+
+.photo_title p {
+color:  #909090;
+font-size: 15px;
+margin-bottom: 65px;
+}
+
+.photo_container {
+	display: block;
+	width: auto;
+	text-align: center;
+}
+
+.photo_item { 
+	display: inline-block;
+	margin: 15px;
+	position: relative;
+}
+
+.photo_item_fon {
+	position: absolute;
+	background: rgba(37, 166, 247, 0.9);
+	z-index: 2px;
+	width: 360px;
+	height: 260px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	border-radius: 2px;
+}
+
+
+.photo_item:hover .photo_item_fon {
+	display: block;
+}
+
+.icon-search, .icon-expand {
+	display: inline-block;
+	font-family: FontAwesome;
+color:  #ffffff;
+font-size: 15px;/* Approximation due to font substitution */
+font-weight: 400;
+text-align: left;
+border: 1px solid white;
+padding: 7px;
+border-radius: 2px;
+vertical-align: middle;
+margin-top: 115px;
+}
+
+.icon-search {
+	margin-right: 5px;
+}
+

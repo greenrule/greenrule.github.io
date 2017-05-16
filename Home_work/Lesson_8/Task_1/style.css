@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.arrow {
+	width: 61%;
+	height: auto;
+	background: #ffdb4d;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding-bottom: 8px;
+	position: relative;
+}
+
+input:first-child {
+    width: 85%;
+    height: auto;
+    margin-top: 5px;
+    padding: 10px 1px;
+    margin-left: 5px;
+    font-family: Arial, sans-serif;
+    border: none;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+
+button {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	height: auto;
+	width: 10%; 
+	padding: 9px 10px;
+	vertical-align: bottom;
+	position: relative;
+
+}
+
+.arrow_end::before {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 0;
+	height: 0;
+	content: ' ';
+	border-width: 34px 0 34px 15px;
+	border-style: solid;
+	border-color: white;
+	border-left-color: #ffdb4d;
+}
+
+input [type="checkbox"] {
+	display: block;
+	width: 5px;
+	height: 5px;
+	position: relative;
+}
+

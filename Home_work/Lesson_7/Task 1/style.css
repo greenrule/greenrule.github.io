@@ -1,0 +1,96 @@
+body {margin: 0;
+padding: 0;}
+
+.table {
+	width: 500px;
+	margin: 0 auto; 
+	font-size: 80px;
+}
+
+.line {
+	font-family: Arial;
+	font-weight: 500;
+	color: #3d3d29;
+	text-align: left;
+	filter: blur(2px);
+}
+
+.table p:first-child {
+	font-size: 100%;
+	line-height: 75%;
+	letter-spacing: 1.45em;
+}
+
+.table p:nth-child(2) {
+	font-size: 90%;
+	line-height: 70%;
+	letter-spacing: 0.63em;
+}
+
+.table p:nth-child(3) {
+	font-size: 80%;
+	line-height: 65%;
+	letter-spacing: 0.31em;
+}
+
+.table p:nth-child(4) {
+	font-size: 70%;
+	line-height: 60%;
+	letter-spacing: 0.25em;
+}
+
+.table p:nth-child(5) {
+	font-size: 60%;
+	line-height: 55%;
+	letter-spacing: 0.38em;
+}
+
+.table p:nth-child(6) {
+	font-size: 50%;
+	line-height: 55%;
+	letter-spacing: 0.37em;
+}
+
+.table p:nth-child(7) {
+	font-size: 40%;
+	line-height: 65%;
+	letter-spacing: 0.62em;
+}
+
+.table p:nth-child(8) {
+	font-size: 30%;
+	line-height: 75%;
+	letter-spacing: 0.74em;
+}
+
+.table p:nth-child(9) {
+	font-size: 25%;
+	line-height: 85%;
+	letter-spacing: 1em;
+}
+
+.table p:nth-child(10) {
+	font-size: 20%;
+	line-height: 95%;
+	letter-spacing: 1.13em;
+}
+
+.line_red {border-bottom: 1px solid red;
+margin: 0;
+width: 380px;}
+
+.table p:nth-child(12) {
+	font-size: 15%;
+	line-height: 100%;
+	letter-spacing: 1.69em;
+}
+
+.table p:nth-child(13) {
+	font-size: 10%;
+	line-height: 100%;
+	letter-spacing: 2.8em;
+}
+}
+
+
+
