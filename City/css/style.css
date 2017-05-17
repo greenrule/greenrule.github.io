@@ -148,20 +148,7 @@ footer .copyright {
 @media (max-width: 510px) {
 	.main_sign {
 		font-size: 60px;}
-}
-@media (max-width: 1210px) {
-	.poem {
-		font-size: 60px;}
-}
-@media (max-width: 1050px) {
-	.poem {
-		font-size: 40px;}
-}
-@media (max-width: 730px) {
-	.poem {
-		font-size: 35px;}
-}
-@media (max-width: 650px) {
-	.poem {
-		display: none;}
+	.gallery h1 {
+		font-size: 50px;
+	}
 }
