@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson6_1</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+var arr = ["воз", "киборг", "корсет", "ЗОВ", "гробик", "костер", "сектор", "озв"];
+ 
+function aclean(arr) {
+  var obj={};
+  for (var i=0; i<arr.length; i++) {
+    var word = arr[i].toLowerCase().split('').sort().join('');
+    obj[word] = arr[i]; //В объект obj будет записано сначала первое из слов obj['взо'] = "воз", а затем obj['взо'] = 'ЗОВ'.
+ 
+Обратите внимание, ключ – отсортирован, а само слово – в исходной форме, чтобы можно было потом получить его из объекта.
+ 
+Вторая запись по тому же ключу перезапишет первую, то есть в объекте останется ровно одно слово с таким набором букв.
+  }
+  
+  var result=[];
+  for (var key in obj) result.push(obj[key]);
+  return result;
+}
+ 
+alert( aclean(arr) );
+</script>	
+</body>
+</html>
+

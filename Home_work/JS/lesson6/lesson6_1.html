@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson6_1</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+var obj = {
+  className: 'open menu hello hi hi cat hi open'
+}
+ 
+function removeClass(obj, cls) {
+  var clasess=obj.className.split(' ');
+  
+  for (var i=0; i<clasess.length; i++) {
+    if (clasess[i]==cls) {
+      clasess.splice(i, 1);
+      i=i-1;
+      }
+  }
+  return obj.className=clasess.join(' ');
+  
+}
+  
+console.log(removeClass(obj, 'open'));
+
+</script>	
+</body>
+</html>
+

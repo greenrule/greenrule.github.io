@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson7_add1</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+var date = new Date(2015, 0, 2);  
+
+function getDateAgo(date, a) {
+   date.setDate(date.getDate()-a); //setDate исправляет сам дату, если она получается неверной 0, 32 и пр.
+  return date.getDate();
+}
+
+
+console.log( getDateAgo(date, 365) );
+
+</script>	
+</body>
+</html>
+

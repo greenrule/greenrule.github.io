@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_lesson2.3</title>
+</head>
+<body>
+<script>
+var userName = prompt('Who are you?');
+if (userName=='admin') {
+	var userPassword = prompt('Password:');
+	if (userPassword=='passw0rd') {
+		alert('Welcome home!');
+	} else if (userPassword==undefined) {
+		alert('Canceled');
+	} else {
+		alert ('Wrong password!');
+	}
+} else if (userName==undefined){
+	alert ('Canceled');
+}else {
+	alert ('Access denied');
+}
+</script>	
+</body>
+</html>
+

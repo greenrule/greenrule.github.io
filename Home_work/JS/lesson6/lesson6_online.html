@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson6_online</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+var obj = {
+  className: "open menu"
+};
+
+
+function addClass(obj, cls) {
+  
+  var classes=obj.className.split(' ');
+  console.log(classes);
+  if (classes.indexOf(cls)==-1) {
+    classes.push(cls);
+    console.log(classes);
+  }
+  obj.className = classes.join(' ');
+};
+
+addClass(obj, "new");
+addClass(obj, "array");
+addClass(obj, "new");
+addClass(obj, "new1");
+console.log(obj.className);
+</script>	
+</body>
+</html>
+

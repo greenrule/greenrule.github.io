@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_lesson5_online</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+var results = [];
+
+function find(arr, a, b) {
+  for (var i=0; i<=arr.length-1; i++) {
+    if (arr[i]>=a && arr[i]<=b) results.push(arr[i]);}
+  return results;
+   
+}
+ 
+console.log(find([1, 0, 67, 47, 87], 47, 87));
+
+</script>	
+</body>
+</html>
+

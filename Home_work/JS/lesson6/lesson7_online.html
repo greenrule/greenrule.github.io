@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson6_online7</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+var date = new Date(2012,0,3);  // 3 января 2012
+
+function getWeekDay(date) {
+  if (date.getDay()==0) {return ("sunday")} ;
+  if (date.getDay()==1) {return ("Monday")};
+  if (date.getDay()==2) {return ("Thuesday")};
+  if (date.getDay()==3) {return ("Wednesday")};
+  return ("another day");
+}
+
+
+console.log( getWeekDay(date) );
+
+alert( date.toLocaleString('ru', {weekday: 'short'}) );
+
+</script>	
+</body>
+</html>
+

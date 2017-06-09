@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_lesson5_1</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+
+var tasksCompleted = {
+  'Anna': 29,
+  'Sergey': 76,
+    'Oleg': 90,
+      'Tanya': 67
+}
+ 
+var max = 0;
+var maxName="";
+ 
+for (var name in tasksCompleted) {
+ if (max<tasksCompleted[name]) {
+   max = tasksCompleted[name];
+    maxName=name;
+ }
+  
+}
+ 
+console.log(maxName || "нет сотрудников"); 
+</script>	
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_lesson3_5</title>
+</head>
+<body>
+alert ('# # # #\n # # # #\n# # # #\n # # # #\n# # # #\n # # # #\n# # # #\n # # # #');
+<script>
+var a='#';
+var b=' ';
+var c='';
+var num = +prompt('Enter your number', '');
+for (var i=1; i<=num/2; i++){
+	a = a+' #';
+	b = b+'# ';
+}
+for (var i=1; i<=num/2; i++){
+c= c + (a+'\n'+b+'\n');
+}
+alert (c);
+</script>	
+</body>
+</html>
+

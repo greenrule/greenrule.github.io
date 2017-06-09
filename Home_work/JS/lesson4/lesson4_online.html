@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_lesson3_online6</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+function randomInteger(max) {
+ return  Math.round(Math.random() * max); 
+}
+alert( randomInteger(3) );
+
+function randomInteger(min, max) {
+ return  Math.round(min - 0.5 + Math.random() * (max-min +1)); 
+}
+console.log( randomInteger(3, 10) );
+
+function Sumto(n){
+  if (n!=1) {
+    return Sumto(n-1)+n;
+  }
+  else return n;
+}
+
+function upperFirst (str) {
+ 
+  return (str=="") ? '': str[0].toUpperCase()+str.slice(1);
+}
+ 
+console.log (upperFirst('njb'));
+ 
+console.log(Sumto(7));
+ 
+ 
+function Factorial(n){
+  if (n!=1) {
+    return Factorial(n-1)*n;
+  }
+  else return n;
+}
+ 
+console.log(Factorial(3));
+ 
+</script>	
+</body>
+</html>
+

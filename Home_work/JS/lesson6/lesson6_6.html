@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson6_1</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+var arr = ["кришна", "кришна", "харе", "харе",
+  "харе", "харе", "кришна", "кришна", "8-()", "кришна", "8-()"];
+console.log(arr.sort());
+ 
+function unique(arr) {
+  arr.sort();
+  for (var i=0; i<arr.length; i++) {
+     if (arr[i]==arr[i+1]) {
+       arr.splice(i, 1);
+       i--;
+       }
+  }
+  return arr;
+}
+ 
+console.log( unique(arr) ); // кришна, харе, 8-()
+</script>	
+</body>
+</html>
+

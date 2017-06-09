@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Решето Эратосфена</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+var numbers = [];
+
+ for (var i=0; i<=100; i++){
+   numbers.push(i);
+ }
+numbers[0]=false;
+numbers[1]=false;
+var p=2;
+for (var i=2; i<=100/p; i++) {
+  var m=p*i;
+  numbers[m]=false;
+}
+
+for (var i=p+1; i<99; i++) {
+  for (var j=p+1; j<100/i; j++) {
+    var m=i*j;
+    numbers[m]=false;
+  }
+}
+
+var sum=0;
+for (var i=0; i<100; i++) {
+  sum=sum+numbers[i];
+}
+
+
+console.log(numbers);
+console.log(sum);
+</script>	
+</body>
+</html>
+

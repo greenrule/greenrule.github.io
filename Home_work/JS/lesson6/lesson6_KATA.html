@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson6_1</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+function getVillainName(birthday){
+var months=["The Evil", "The Vile", "The Cruel", "The Trashy", "The Despicable", "The Embarrassing", "The Disreputable", "The Atrocious", "The Twirling", "The Orange", "The Terrifying", "The Awkward"];
+var lastDigit=["Mustache", "Pickle", "Hood Ornament", "Raisin", "Recycling Bin", "Potato", "Tomato", "House Cat", "Teaspoon", "Laundry Basket", "Mustache", "Pickle", "Hood Ornament", "Raisin", "Recycling Bin", "Potato", "Tomato", "House Cat", "Teaspoon", "Laundry Basket", "Mustache", "Pickle", "Hood Ornament", "Raisin", "Recycling Bin", "Potato", "Tomato", "House Cat", "Teaspoon", "Laundry Basket", "Mustache"];
+ 
+return months[birthday.getMonth()]+" "+lastDigit[birthday.getDate()];
+}
+ 
+var birthday= new Date(2014, 10, 18);
+console.log(getVillainName(birthday));
+</script>	
+</body>
+</html>
+

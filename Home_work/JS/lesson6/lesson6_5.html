@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson6_1</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+function isPal(string) {
+  var splitString = string.toLowerCase().split(' ').join('');
+  var splitReverseString = string.toLowerCase().split(' ').join('').split('').reverse().join('');
+  console.log(splitString);
+  console.log(splitReverseString);
+   if (splitString==splitReverseString) {return true;}
+  else {return false;}
+}
+ 
+console.log(isPal("А роза упала на лапу Азора"));
+console.log(isPal('Anna')); // true
+console.log(isPal('Вася')); //false
+ 
+console.log(isPal('12321')); //true
+ 
+console.log(isPal('123212')); //false
+</script>	
+</body>
+</html>
+

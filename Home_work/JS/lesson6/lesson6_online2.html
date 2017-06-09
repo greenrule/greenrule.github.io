@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lesson6_online2</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+//мой вариант//
+function toCamelCase(str) {
+  
+var arrNew=str.split("-");
+   var arrNewBig=[arrNew[0]];
+  for (var i=1; i<arrNew.length; i++) {
+     arrNewBig.push(arrNew[i].charAt(0).toUpperCase()+arrNew[i].slice(1));
+  };
+  
+  var newStr=arrNewBig.join('');
+  console.log(newStr);
+  
+};
+
+toCamelCase('background-color');
+toCamelCase('list-style-image');
+toCamelCase('-webkit-transition');
+
+//проще вариант//
+function toCamelCase(str) {
+  
+var arrNew=str.split("-");
+  for (var i=1; i<arrNew.length; i++) {
+     arrNew[i]=arrNew[i].charAt(0).toUpperCase()+arrNew[i].slice(1);
+  };
+  
+  return arrNew.join('');
+  
+};
+
+console.log(toCamelCase('background-color'));
+console.log(toCamelCase('list-style-image'));
+console.log(toCamelCase('-webkit-transition'));
+</script>	
+</body>
+</html>
+

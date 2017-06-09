@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS_lesson5_online</title>
+</head>
+<body>
+Смотреть консоль
+<script>
+var user={};
+  user.name='Sergey';
+  user.surname='Petrov';
+  
+user.name='Andrey';
+user.age=30;
+  delete user.name;
+  
+  console.log(user);
+
+
+
+
+  function isEmpty(obj) {
+  for (var key in obj) {
+    return false;
+  }
+  return true;
+}
+ 
+var todoList={};
+console.log(isEmpty(todoList));
+todoList['homework']='Lesson5';
+console.log(isEmpty(todoList));
+
+
+
+
+function getEarn(obj) {
+  var sum=0;
+  for (var key in obj) {
+    sum+=obj[key];
+  }
+  return sum;
+}
+ 
+var salaries={
+  'junior': 1000,
+  'senior': 2000
+};
+console.log(getEarn(salaries));
+
+
+
+
+
+function lastElement(arr) {
+  return arr[arr.length-1];
+}
+ 
+console.log (lastElement([1,2,3,12,35]));
+
+
+
+
+function lastElement(arr, n) {
+ arr.push(n);
+  return arr;
+}
+ 
+console.log (lastElement([1,2,3,12,35], 7));
+
+
+var array = ['apple', 'orange']
+array.push('киви');
+array[array.length-2]="pear";
+ 
+console.log (array.shift());
+console.log (array);
+array.unshift ("apricot", 'peach');
+console.log (array);
+
+
+function getElement(arr) {
+  var min=0;
+  var max=arr.length-1;
+  return arr[min+Math.floor(Math.random()*(max+1-min))];
+}
+ 
+console.log(getElement([1, 56, 67, 47, 87]));
+
+</script>	
+</body>
+</html>
+
