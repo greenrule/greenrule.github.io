@@ -1,0 +1,145 @@
+header {
+	font-family: 'Arial';
+	font-size: 23px;
+	background: url(img/fon_up.jpg);
+}
+
+main {
+	font-family: "Lucida Console", Monaco, monospace;
+	background: url(img/fon_down_1.jpg) left bottom no-repeat,
+	url(img/fon_down_2.jpg) 150px 220px no-repeat,
+	url(img/fon_down_all.jpg);
+	margin-top: -16px;
+}
+
+.logo_and_sign {
+	padding: 30px 0px;
+}
+
+.main_sign {
+	font-size: 50px;
+	color:  #ffffff;
+	text-shadow: #0f0f3d 2px 2px 2px;	
+}
+
+.second_main_sign {
+	font-size: 40px;
+	color: #3399ff;
+	padding: 10px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	text-shadow: #000000 1px 1px 2px;
+}
+
+.nav.nav-pills a {
+	font-size: 20px;
+}
+
+.nav.nav-tabs a:hover,
+.nav.nav-tabs a:active {
+	font-size: 20px;
+	color: #3385ff;
+}
+.trainers_article {
+	font-size: 18px;
+}
+.trainers_article img {
+	margin-right: 30px;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.trainers_article h1 {
+	color: #ff4d4d;
+	margin-top: 50px;
+	text-shadow: #000000 1px 1px 2px;
+}
+.trainers_article h2 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	color: #2929a3;
+	text-shadow: #000000 1px 1px 2px;
+}
+
+
+.songs h2 {
+	font-family: Verdana;
+	font-size: 27px;
+	text-transform: uppercase;
+	padding: 10px;
+	color: #ff3333;
+	text-shadow: 0px 2px 0px #800000;
+	padding: 20px;
+}
+.songs p {
+	font-family: Verdana;
+	font-size: 20px;
+}
+.songs_authors p {
+	font-size: 14px;
+}
+.songs_authors{
+padding: 25px 0px;
+}
+p.heart{
+	font-size: 50px;
+	color: red;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+audio {
+	padding: 25px;
+}
+
+.history_crest p{
+	padding: 15px;
+	font-family: Verdana;
+}
+.history_list {
+	list-style-type: none;
+}
+.arrow {
+	padding-right: 40px;
+}
+footer {
+background: url(img/footer.jpg);
+padding: 30px;
+}
+
+@media (max-width: 1210px) {
+	.poem {
+		font-size: 60px;}
+}
+@media (max-width: 1050px) {
+	.poem {
+		font-size: 40px;}
+}
+@media (max-width: 730px) {
+	.poem {
+		font-size: 35px;}
+}
+@media (max-width: 650px) {
+	.poem {
+		display: none;}
+		iframe {
+		width: 500px;
+		height: 240px;
+}
+@media (max-width: 510px) {
+	.main_sign {
+		font-size: 60px;}
+		.songs h2 {
+			text-transform: none;
+		}
+	iframe {
+		width: 300px;
+		height: 180px;
+	}
+	.video_main_sign {
+		font-size: 50px;
+	}
+	.sight_small_font {
+		font-size: 16px;
+	}
+}
+/*-------------*/
