@@ -3,26 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Тренеры - Федерация по прыжкам на лыжах с трамплина и лыжному двоеборью Свердловской области</title>
-    <link rel="stylesheet" href="style_main1.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+  <script src="https://use.fontawesome.com/0a05054cbd.js"></script>
 </head> 
 <body>
+<div class="trainers_fon">
 <div class="container-fluid">
  <div class="row">
-  <div class="col-md-1 col-lg-1 col-sm-1 col-xs-1 text-center"><!--первая колонна--></div>
-   <div class="col-md-10 col-lg-10 col-sm-10 col-xs-10 text-center"> <!--вторая колонна-->
+  <div class="col-md-1 col-lg-1 col-sm-1 col-xs-12 text-center"><!--первая колонна--></div>
+   <div class="col-md-10 col-lg-10 col-sm-10 col-xs-12 text-center"> <!--вторая колонна-->
     <div class="container-fluid"> <!--гл.надпись и логотип-->
      <div class="row logo_and_sign">
-      <div class="col-md-3 col-lg-3 col-sm-3 col-xs-3 text-center">
+      <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 text-center">
       <a href="#"><img src="img/logo.png" width="160" height="160" border="0" alt="Федерация по прыжкам на лыжах с трамплина и лыжному двоеборью Свердловской области"></a>
       </div>
-       <div class="col-md-9 col-lg-9 col-sm-9 col-xs-9 main_sign text-center">Федерация по прыжкам на лыжах с трамплина и лыжному двоеборью Свердловской области</div>
+       <div class="col-md-9 col-lg-9 col-sm-9 col-xs-12 main_sign text-center">Федерация по прыжкам на лыжах с трамплина и лыжному двоеборью Свердловской области</div>
      </div>
     </div><!--конец главной надписи и логотипа-->
    <nav class="navbar navbar-default" role="navigation">
@@ -54,7 +55,7 @@
                <li><a href="#">История</a></li>
                <li><a href="#">Уставные документы</a></li>
                <li><a href="#">Состав Федерации</a></li>
-               <li class="active"><a href="#">Старшие тренеры</a></li>
+               <li class="active"><a href="trainers">Старшие тренеры</a></li>
                <li><a href="#">Ведущие спортсмены</a></li>
              </ul>
            </li>
@@ -115,7 +116,7 @@
         </div>
        </div> <!--логотипы конец-->
         <div class="row footer_links"> <!--ссылки футер-->
-         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-left footer_links_first_colum">
+         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-left footer_links_first_colum">
           <ul>
            <li><a href="">Новости</a></li>
            <li><a href="">Соревнования и результаты</a></li>
@@ -123,7 +124,7 @@
            <li><a href="">Контакты</a></li>
           </ul>
          </div>
-         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-left">
+         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-left">
           <ul>
            <li><p>Услуги</p></li>
            <li><a href="">Платные группы</a></li>
@@ -131,7 +132,7 @@
            <li><a href="">Фото и видео съемка соревнований</a></li>
           </ul>
          </div>
-         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-left">
+         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-left">
           <ul>
            <li><p>Федерация</p></li>
            <li><a href="">История</a></li>
@@ -141,7 +142,7 @@
            <li><a href="">Ведущие спортсмены</a></li>
           </ul>
          </div>
-         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-left">
+         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 text-left">
           <ul>
            <li><p>Документы</p></li>
            <li><a href="">Методические пособия</a></li>
@@ -153,21 +154,28 @@
           </div>
         </div> <!--ссылки футер конец-->
          <div class="row footer_adress"> <!--адрес, соц.кнопки, метрика-->
-          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left footer_adress_name">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-7 text-left footer_adress_name">
           <p>© 2017, Федерация по прыжкам на лыжах с трамплина и лыжному двоеборью Свердловской области</p>
           <p>г. Екатеринбург, ул. Шаумяна 73А/1, оф. 510</p>
           <p>тел. (343)234-01-20, 310-19-17, e-mail: aist-tribuna@mail.ru</p>
           </div>
-           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center footer_social_bottoms">
-             <p>Социальные кнопки</p>
+           <div class="col-xs-12 col-sm-9 col-md-4 col-lg-3 text-center footer_social_bottoms">
+           <a href=""><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-odnoklassniki-square fa-2x" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+             <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+
+
            </div>
-          <div class="footer_metrika col-xs-2 col-sm-2 col-md-2 col-lg-2 text-right"><!-- Yandex.Metrika informer --> <a href="https://metrika.yandex.ru/stat/?id=44679397&amp;from=informer" target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/44679397/3_1_FFFFFFFF_EFEFEFFF_0_visits" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" /></a> <!-- /Yandex.Metrika informer --> <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter44679397 = new Ya.Metrika({ id:44679397, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/44679397" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter --></div>
+          <div class="footer_metrika col-xs-12 col-sm-3 col-md-2 col-lg-2 text-center"><!-- Yandex.Metrika informer --> <a href="https://metrika.yandex.ru/stat/?id=44679397&amp;from=informer" target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/44679397/3_1_FFFFFFFF_EFEFEFFF_0_visits" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" /></a> <!-- /Yandex.Metrika informer --> <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter44679397 = new Ya.Metrika({ id:44679397, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/44679397" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter --></div>
       </div><!--конец адрес, соц.кнопки, метрика-->
     </div>
     </footer>
    </div><!-конец вторая колонна-->
-    <div class="col-md-1 col-lg-1 col-sm-1 col-xs-1 text-center"> <!--третья колонна--></div>   
+    <div class="col-md-1 col-lg-1 col-sm-1 col-xs-12 text-center"> <!--третья колонна--></div>   
 </div> <!-конец row-->
+</div> <! -конец trainers_fon-->
 </body>
   <!-- jQuery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

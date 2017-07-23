@@ -1,0 +1,285 @@
+.trainers_fon {
+	background: fixed url(img/fon_4.jpg) no-repeat;
+}
+.index_fon {
+	background: fixed url(img/fon_1.jpg) no-repeat;
+}
+nav {
+	font-family: 'Arial';
+	font-size: 18px;
+}
+.logo_and_sign {
+	padding: 10px 0px;
+	background: url(img/fon_up.jpg);
+}
+.main_sign {
+	padding-top: 12px;
+	font-size: 37px;
+	color:  #ffffff;
+	text-shadow: #0f0f3d 2px 2px 2px;	
+}
+main {
+	font-family: "Arial";
+}
+.index_news_sign {
+background-color: #1a75ff;	
+}
+.index_photo_sign {
+	background-color: #ff751a;
+}
+.index_video_sign {
+	background-color: #59b300;
+}
+.index_news_sign, 
+.index_photo_sign,
+.index_video_sign {
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+.index_news_sign p, 
+.index_photo_sign p,
+.index_video_sign p {
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: #0f0f3d 1px 1px 1px;
+}
+.index_news_sign span a,
+.index_photo_sign span a,
+.index_video_sign span a{
+	font-size: 10px;
+	color: white;
+	text-transform: uppercase;
+}
+.index_news {
+	font-size: 16px;
+	background: url(img/fon_down_all.jpg);
+	height: 192px;
+	margin-bottom: 10px;
+}
+.index_news img {
+	padding-right: 12px;
+}
+.index_news h3 {
+	color: #1a75ff;
+	margin:0;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+.index_news_data {
+	font-size: 14px; 
+}
+.index_photo,
+.index_video {
+	background: url(img/fon_down_all.jpg);
+	margin-bottom: 10px;
+}
+.index_photo img,
+.index_video iframe {
+padding: 10px 0px;
+}
+
+.trainers_article_sign {
+	background-color: #e60000;
+}
+.trainers_article_sign p {
+	font-size: 32px;
+	color: white;
+	padding: 2px 0px;
+	text-transform: uppercase;
+	text-shadow: #0f0f3d 1px 1px 1px;
+}
+
+.trainers_article {
+	font-size: 18px;
+	background: url(img/fon_down_all.jpg);
+	padding: 0px 10px;
+}
+
+.trainers_article h2 {
+	padding: 10px ;
+	color: #e60000;
+}
+
+.trainers_article img {
+	margin-right: 10px;
+}
+
+.footer_logo {
+background: #d6d6c2;
+padding-top: 15px;
+padding-bottom: 10px;
+}
+
+.footer_logo a {
+	-webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(grayscale.svg#greyscale); /* Firefox 4+ */
+  filter: gray; /* IE 6-9 */
+  -webkit-filter: grayscale(1);
+}
+
+.footer_logo a:hover,
+.footer_logo a:active {
+	-webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: none;
+  -webkit-filter: grayscale(0);
+} 
+
+.footer_links {
+	background: #ebebe0;
+	padding-top: 10px;
+}
+
+.footer_links ul {
+	list-style-type: none;
+}
+
+.footer_links a {
+	font-size: 12px;
+	color: #000000;
+}
+
+.footer_links_first_colum {
+	font-weight: bold;
+}
+
+.footer_links_first_colum li {
+	padding: 3px 0px;
+}
+
+.footer_links p {
+	font-weight: bold;
+}
+
+.footer_links a:hover, 
+.footer_links a:active {
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+.footer_adress {
+	background:  #f5f5f0;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.footer_adress_name p:first-of-type {
+	font-weight: bold;
+}
+
+.footer_social_bottoms {
+	padding-top: 20px;
+}
+
+.footer_metrika {
+	padding-top: 20px;
+}
+.fa-vk, .fa-instagram {
+	color: grey;
+}
+.fa-odnoklassniki-square {
+	color: orange;
+}
+.fa-youtube-square {
+	color: red;
+}
+
+@media (max-width: 1350px) {
+	nav {
+		font-size: 16px;}
+	.main_sign {
+		font-size: 34px;
+	}
+}
+@media (max-width: 1240px) {
+	nav {
+		font-size: 14px;}
+}
+@media (max-width: 1140px) {
+	nav {
+		font-size: 13px;}
+	.main_sign {
+		font-size: 30px;
+	}
+}
+@media (max-width: 1090px) {
+	nav {
+		font-size: 16px;}
+}
+@media (max-width: 900px) {
+	.main_sign {
+		font-size: 25px;}
+	.logo_and_sign img {
+		width: 110px;
+		height: 110px;
+	}
+	.footer_links a {
+	font-size: 12px;
+	}
+}
+@media (max-width: 767px) {
+	.footer_links a {
+	font-size: 12px;
+	}
+	.footer_links ul {
+		padding-left: 20px;
+	}
+	.main_sign {
+		font-size: 22px;
+	}
+}
+@media (max-width: 650px) {
+	.logo_and_sign img {
+		width: 100px;
+		height: 100px;
+	}
+}
+@media (max-width: 540px) {
+	.main_sign {
+		font-size: 20px;
+		text-align: justify;
+	}
+	.logo_and_sign img {
+		width: 90px;
+		height: 90px;
+	}
+}
+@media (max-width: 500px) {
+	.main_sign {
+		font-size: 18px;
+	}
+
+	.logo_and_sign img {
+		width: 70px;
+		height: 70px;
+	}
+	.trainers_article_sign p {
+		font-size: 26px;
+	}
+	.trainers_article h2 {
+		font-size: 19px;
+	}
+}
+@media (max-width: 412px) {
+	.main_sign {
+		font-size: 20px;
+	}
+	
+	.logo_and_sign img {
+		width: 60px;
+		height: 60px;
+		margin-top: 20px;
+	}
+	.footer_logo img {
+		width: 55px;
+		height: 55px;
+	}
+}
+/*-------------*/
