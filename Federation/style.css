@@ -14,21 +14,28 @@ nav {
 }
 .main_sign {
 	padding-top: 12px;
-	font-size: 37px;
+	font-size: 42px;
 	color:  #ffffff;
 	text-shadow: #0f0f3d 2px 2px 2px;	
 }
 main {
 	font-family: "Arial";
 }
-.index_news_sign {
-background-color: #1a75ff;	
+.index_news_sign,
+.index_groups_sign {
+	background-color: #1a75ff;	
 }
-.index_photo_sign {
+.index_photo_sign,
+.index_event_sign,
+.index_excursion_sign {
 	background-color: #ff751a;
 }
-.index_video_sign {
+.index_video_sign,
+.index_calendar_sign {
 	background-color: #59b300;
+}
+.index_sponsor_sign {
+	background-color: #ff0000;	
 }
 .index_news_sign, 
 .index_photo_sign,
@@ -70,15 +77,37 @@ background-color: #1a75ff;
 	font-size: 14px; 
 }
 .index_photo,
-.index_video {
+.index_video,
+.index_social_bottoms,
+.index_event,
+.index_sponsor,
+.index_calendar,
+.index_groups,
+.index_excursion {
 	background: url(img/fon_down_all.jpg);
 	margin-bottom: 10px;
 }
 .index_photo img,
-.index_video iframe {
+.index_video iframe,
+.index_groups img,
+.index_excursion img {
 padding: 10px 0px;
 }
-
+.index_social_bottoms {
+	padding-bottom: 5px;
+}
+.index_event_sign,
+.index_sponsor_sign,
+.index_calendar_sign,
+.index_groups_sign,
+.index_excursion_sign {
+	font-size: 18px;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: #0f0f3d 1px 1px 1px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
 .trainers_article_sign {
 	background-color: #e60000;
 }
