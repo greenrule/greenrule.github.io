@@ -49,32 +49,30 @@ main {
 	font-size: 30px;
 	color: white;
 	text-transform: uppercase;
-	text-shadow: #0f0f3d 1px 1px 1px;
 }
-.index_news_sign span a,
-.index_photo_sign span a,
-.index_video_sign span a{
+.index_news_sign a,
+.index_photo_sign a,
+.index_video_sign a{
 	font-size: 10px;
 	color: white;
 	text-transform: uppercase;
+	text-shadow: none;
 }
 .index_news {
 	font-size: 16px;
 	background: url(img/fon_down_all.jpg);
-	height: 192px;
 	margin-bottom: 10px;
 }
 .index_news img {
-	padding-right: 12px;
+	padding: 10px 0px;
 }
-.index_news h3 {
+.index_news h4 {
 	color: #1a75ff;
-	margin:0;
-	margin-left: 10px;
-	padding-top: 5px;
+	font-size: 16px;
+	font-weight: bold;
 }
 .index_news_data {
-	font-size: 14px; 
+	font-size: 12px; 
 }
 .index_photo,
 .index_video,
@@ -91,10 +89,13 @@ main {
 .index_video iframe,
 .index_groups img,
 .index_excursion img {
-padding: 10px 0px;
+padding: 15px 0px;
 }
 .index_social_bottoms {
 	padding-bottom: 5px;
+}
+.index_social_bottoms a {
+	padding: 0px 5px;
 }
 .index_event_sign,
 .index_sponsor_sign,
@@ -230,6 +231,17 @@ padding-bottom: 10px;
 @media (max-width: 1240px) {
 	nav {
 		font-size: 14px;}
+	.index_news {
+		font-size: 14px;
+	}
+	.index_news h3 {
+		font-size: 15px;
+	}
+}
+@media (max-width: 1240px) {
+	.index_social_bottoms a {
+	padding: 0;
+	}
 }
 @media (max-width: 1140px) {
 	nav {
@@ -237,10 +249,24 @@ padding-bottom: 10px;
 	.main_sign {
 		font-size: 30px;
 	}
+	.index_news_sign p, 
+	.index_photo_sign p,
+	.index_video_sign p {
+	font-size: 25px;
+	}
 }
 @media (max-width: 1090px) {
 	nav {
 		font-size: 16px;}
+}
+@media (max-width: 990px) {
+	.index_social_bottoms a {
+		padding: 0px 15px;
+	}
+	.index_excursion p,
+	.index_groups p {
+		padding-top: 10px;
+	}
 }
 @media (max-width: 900px) {
 	.main_sign {
@@ -263,11 +289,24 @@ padding-bottom: 10px;
 	.main_sign {
 		font-size: 22px;
 	}
+	.index_news_sign p, 
+	.index_photo_sign p,
+	.index_video_sign p,
+	.index_news_sign,
+	.index_photo_sign span a,
+	.index_video_sign span a {
+	text-align: center;
+	}
 }
 @media (max-width: 650px) {
 	.logo_and_sign img {
 		width: 100px;
 		height: 100px;
+	}
+	.index_news_sign p, 
+	.index_photo_sign p,
+	.index_video_sign p {
+	font-size: 20px;
 	}
 }
 @media (max-width: 540px) {
@@ -289,6 +328,10 @@ padding-bottom: 10px;
 		width: 70px;
 		height: 70px;
 	}
+	.index_social_bottoms a {
+	padding: 0;
+	font-size: 10px;
+	}
 	.trainers_article_sign p {
 		font-size: 26px;
 	}
@@ -298,13 +341,12 @@ padding-bottom: 10px;
 }
 @media (max-width: 412px) {
 	.main_sign {
-		font-size: 20px;
+		font-size: 16px;
 	}
-	
-	.logo_and_sign img {
-		width: 60px;
-		height: 60px;
-		margin-top: 20px;
+	.index_news_sign p, 
+	.index_photo_sign p,
+	.index_video_sign p {
+	font-size: 12px;
 	}
 	.footer_logo img {
 		width: 55px;
