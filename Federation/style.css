@@ -346,7 +346,12 @@ padding-bottom: 10px;
 	.index_news_sign p, 
 	.index_photo_sign p,
 	.index_video_sign p {
-	font-size: 12px;
+	font-size: 13px;
+	}
+	.index_news_sign a, 
+	.index_photo_sign a,
+	.index_video_sign a {
+	font-size: 8px;
 	}
 	.footer_logo img {
 		width: 55px;
