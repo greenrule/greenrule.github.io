@@ -27,14 +27,16 @@ main {
 }
 .index_photo_sign,
 .index_event_sign,
-.index_excursion_sign {
+.index_excursion_sign,
+.curent_event_sign {
 	background-color: #ff751a;
 }
 .index_video_sign,
 .index_calendar_sign {
 	background-color: #59b300;
 }
-.index_sponsor_sign {
+.index_sponsor_sign,
+.sponsors_sign {
 	background-color: #ff0000;	
 }
 .index_news_sign, 
@@ -58,7 +60,8 @@ main {
 	text-transform: uppercase;
 	text-shadow: none;
 }
-.index_news {
+.index_news,
+.sponsors {
 	font-size: 16px;
 	background: url(img/fon_down_all.jpg);
 	margin-bottom: 10px;
@@ -81,7 +84,8 @@ main {
 .index_sponsor,
 .index_calendar,
 .index_groups,
-.index_excursion {
+.index_excursion,
+.curent_event {
 	background: url(img/fon_down_all.jpg);
 	margin-bottom: 10px;
 }
@@ -101,13 +105,22 @@ padding: 15px 0px;
 .index_sponsor_sign,
 .index_calendar_sign,
 .index_groups_sign,
-.index_excursion_sign {
+.index_excursion_sign,
+.curent_event_sign,
+.sponsors_sign {
 	font-size: 18px;
 	color: white;
 	text-transform: uppercase;
 	text-shadow: #0f0f3d 1px 1px 1px;
 	padding-top: 10px;
 	margin-bottom: 5px;
+}
+.new_inner_data {
+	font-weight: bold;
+	padding-top: 10px;
+}
+.curent_event h4 {
+	color: #ff751a;
 }
 .trainers_article_sign {
 	background-color: #e60000;
