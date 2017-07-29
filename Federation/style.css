@@ -2,7 +2,13 @@
 	background: fixed url(img/fon_4.jpg) no-repeat;
 }
 .index_fon {
+	background: fixed url(img/fon_2.jpg) no-repeat;
+}
+.news_fon {
 	background: fixed url(img/fon_1.jpg) no-repeat;
+}
+.schedule_fon {
+	background: fixed url(img/fon_3.jpg) no-repeat;
 }
 nav {
 	font-family: 'Arial';
@@ -33,7 +39,7 @@ main {
 }
 .index_video_sign,
 .index_calendar_sign {
-	background-color: #59b300;
+	background-color: #0000b3;
 }
 .index_sponsor_sign,
 .sponsors_sign {
