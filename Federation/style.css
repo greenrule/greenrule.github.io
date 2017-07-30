@@ -51,7 +51,62 @@ main {
 	margin-bottom: 5px;
 	padding-top: 10px;
 }
-.index_news_sign p, 
+.index_main_link a:first-of-type{
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+}
+.index_main_link a:hover,
+.index_main_link a:active,
+.index_main_sign a:hover,
+.index_main_sign a:active,
+.index_news p a:hover,
+.index_news p a:active,
+.index_news h4 a:hover,
+.index_news h4 a:active,
+.index_photo_sign a:hover,
+.index_photo_sign a:active,
+.index_video_sign p a:hover,
+.index_video_sign p a:active,
+.index_event_sign a:hover,
+.index_event_sign a:active,
+.index_event p a:hover,
+.index_event p a:active,
+.index_sponsor_sign a:hover,
+.index_sponsor_sign a:active,
+.index_calendar_sign a:hover,
+.index_calendar_sign a:active,
+.index_groups_sign a:active,
+.index_groups_sign a:hover,
+.index_excursion_sign a:hover,
+.index_excursion_sign a:active,
+.index_sponsor p a:hover,
+.index_sponsor p a:active,
+.index_calendar p a:hover,
+.index_calendar p a:active,
+.index_groups p a:hover,
+.index_groups p a:active,
+.index_excursion p a:hover,
+.index_excursion p a:active
+ {
+	text-decoration: none;
+	opacity: 0.7; 
+}
+.index_video_sign p a:hover,
+.index_video_sign p a:active,
+.index_event_sign a:hover,
+.index_event_sign a:active,
+.index_sponsor_sign a:hover,
+.index_sponsor_sign a:active,
+.index_calendar_sign a:hover,
+.index_calendar_sign a:active,
+.index_groups_sign a:hover,
+.index_groups_sign a:active,
+.index_excursion_sign a:hover,
+.index_excursion_sign a:active {
+	color: white;
+}
+.index_news_sign p,
 .index_photo_sign p,
 .index_video_sign p {
 	font-size: 30px;
@@ -80,6 +135,14 @@ main {
 	font-size: 16px;
 	font-weight: bold;
 }
+.index_news p a,
+.index_event p a,
+.index_sponsor p a,
+.index_calendar p a,
+.index_groups p a,
+.index_excursion p a{
+	color: black;
+} 
 .index_news_data {
 	font-size: 12px; 
 }
@@ -109,19 +172,26 @@ padding: 15px 0px;
 .index_social_bottoms a {
 	padding: 0px 5px;
 }
-.index_event_sign,
-.index_sponsor_sign,
-.index_calendar_sign,
-.index_groups_sign,
-.index_excursion_sign,
+.index_event_sign a,
+.index_sponsor_sign a,
+.index_calendar_sign a,
+.index_groups_sign a,
+.index_excursion_sign a,
 .curent_event_sign,
 .sponsors_sign {
 	font-size: 18px;
 	color: white;
+	padding-top: 10px;
 	text-transform: uppercase;
 	text-shadow: #0f0f3d 1px 1px 1px;
-	padding-top: 10px;
 	margin-bottom: 5px;
+}
+.index_event_sign p,
+.index_sponsor_sign p,
+.index_calendar_sign p,
+.index_groups_sign p,
+.index_excursion_sign p {
+	padding-top: 10px;
 }
 .new_inner_data {
 	font-weight: bold;
@@ -267,6 +337,9 @@ table tr:nth-child(2n) {
     	background-color: #cce6ff;
     }
 @media screen and (max-width: 1140px) {
+	.table {
+		font-size: 15px;
+	}
     table thead {
         display: none;
     }
