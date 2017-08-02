@@ -35,7 +35,6 @@ main {
 }
 .index_greeting_text {
 	font-size: 20px;
-	padding-top: 20px;
 	color: #1a75ff;
 }
 .index_news_sign,
@@ -50,7 +49,7 @@ main {
 }
 .index_video_sign,
 .index_calendar_sign {
-	background-color: #008000;
+	background-color: blue;
 }
 .index_sponsor_sign,
 .sponsors_sign {
