@@ -2,7 +2,7 @@
 	background: fixed url(img/fon_4.jpg) no-repeat;
 }
 .index_fon {
-	background: fixed url(img/fon_2.jpg) no-repeat;
+	background: fixed url(img/fon_3.jpg) no-repeat;
 }
 .news_fon {
 	background: fixed url(img/fon_1.jpg) no-repeat;
@@ -16,7 +16,7 @@ nav {
 }
 .logo_and_sign {
 	padding: 10px 0px;
-	background: url(img/fon_up.jpg);
+	background: url(img/fon_up_2.jpg);
 }
 .main_sign {
 	padding-top: 12px;
@@ -26,6 +26,17 @@ nav {
 }
 main {
 	font-family: "Arial";
+}
+.index_greeting {
+	color: red;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 10px;
+}
+.index_greeting_text {
+	font-size: 20px;
+	padding-top: 20px;
+	color: #1a75ff;
 }
 .index_news_sign,
 .index_groups_sign {
@@ -39,7 +50,7 @@ main {
 }
 .index_video_sign,
 .index_calendar_sign {
-	background-color: #0000b3;
+	background-color: #008000;
 }
 .index_sponsor_sign,
 .sponsors_sign {
@@ -436,6 +447,9 @@ table tr:nth-child(2n) {
 	.main_sign {
 		font-size: 22px;
 	}
+	.logo_and_sign {
+	background: url(img/fon_up_3.jpg);
+}
 	.index_news_sign p, 
 	.index_photo_sign p,
 	.index_video_sign p,
@@ -455,6 +469,12 @@ table tr:nth-child(2n) {
 	.index_video_sign p {
 	font-size: 20px;
 	}
+	.index_greeting {
+	font-size: 20px;
+	}
+	.index_greeting_text {
+	font-size: 19px;
+	}
 }
 @media (max-width: 540px) {
 	.main_sign {
@@ -470,6 +490,12 @@ table tr:nth-child(2n) {
 	.main_sign {
 		font-size: 18px;
 	}
+	.index_greeting {
+	font-size: 18px;
+}
+.index_greeting_text {
+	font-size: 17px;
+}
 
 	.logo_and_sign img {
 		width: 70px;
