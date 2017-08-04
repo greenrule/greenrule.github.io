@@ -235,6 +235,7 @@ padding: 15px 0px;
 .trainers_article h4 {
 	font-style: italic;
 	padding-bottom: 10px;
+	color: #1a75ff;
 }
 .trainers_article img {
 	margin-right: 30px;
@@ -242,6 +243,9 @@ padding: 15px 0px;
 }
 .photo_text {
 	margin-bottom: 30px;
+}
+.contact_sign {
+	color: #1a75ff;
 }
 .footer_logo {
 background: #d6d6c2;
