@@ -137,9 +137,6 @@ main {
 	background: url(img/fon_down_all.jpg);
 	margin-bottom: 10px;
 }
-.index_news img {
-	padding: 10px 0px;
-}
 .index_news h4 {
 	color: #1a75ff;
 	font-size: 16px;
@@ -155,6 +152,24 @@ main {
 } 
 .index_news_data {
 	font-size: 12px; 
+}
+.index_news img,
+.curent_event img {
+	padding: 10px 0px;
+	margin: 15px auto;
+}
+
+.index_news p {
+	text-align: justify;
+}
+.post-nav {
+	padding: 20px 20px;
+	margin-bottom: 30px;
+	color: #1a75ff;
+}
+.index_groups img,
+.index_excursion img {
+	margin: 0px auto;
 }
 .index_photo,
 .index_video,
@@ -175,6 +190,10 @@ main {
 .index_groups img,
 .index_excursion img {
 padding: 15px 0px;
+}
+.index_groups p,
+.index_excursion p {
+	margin: 0px -15px 10px; 
 }
 .index_social_bottoms {
 	padding-bottom: 5px;
@@ -203,6 +222,14 @@ padding: 15px 0px;
 .index_excursion_sign p {
 	padding-top: 10px;
 }
+.index_event p,
+.index_sponsor p,
+.index_calendar p,
+.index_groups p,
+.index_excursion a{
+	color: black;
+	text-align: justify;
+} 
 .new_inner_data {
 	font-weight: bold;
 	padding-top: 10px;
@@ -488,6 +515,11 @@ table tr:nth-child(2n) {
 		width: 90px;
 		height: 90px;
 	}
+	.post-nav {
+		font-size: 12px;
+		padding: 0px;
+		padding-bottom: 10px;
+	}
 }
 @media (max-width: 500px) {
 	.main_sign {
@@ -538,3 +570,69 @@ table tr:nth-child(2n) {
 	}
 }
 /*-------------*/
+
+.block1,
+.block2,
+.block3,
+.block4 {
+    font-size: 16px;
+    line-height: 2.4em;
+    border-bottom: 1px solid #eee;
+    text-indent: 10px;
+}
+
+.block1:hover,
+.block2:hover,
+.block3:hover,
+.block4:hover {
+    background-color: #cce6ff;
+    cursor: pointer;
+}
+
+.block1:after {
+    box-sizing: content-box;
+    content: url("img/team.png");
+    float: right;
+    opacity: 0.5;
+    padding-top: 5px;
+    height: 32px;
+}
+
+.block2:after {
+    content: url("img/person.png");
+    float: right;
+    opacity: 0.5;
+    padding-top: 5px;
+    height: 32px;
+}
+
+.block3:after {
+    content: url("img/worldwide.png");
+    float: right;
+    opacity: 0.5;
+    padding-top: 5px;
+    height: 32px;
+}
+
+.block4:after {
+    content: url("img/photo.png");
+    float: right;
+    opacity: 0.5;
+    padding-top: 5px;
+    height: 32px;
+}
+
+.img-icons {
+    opacity: 0.5;
+    border-top: 1px solid #000;
+    float: right;
+}
+
+.img-icons:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.img-icons img {
+    margin: 0 auto;
+}
