@@ -32,10 +32,14 @@ main {
 	font-size: 22px;
 	font-weight: bold;
 	padding: 10px;
+	text-align: center;
 }
 .index_greeting_text {
 	font-size: 20px;
 	color: #1a75ff;
+}
+.index_news .index_greeting {
+	text-align: center;
 }
 .index_news_sign,
 .index_groups_sign {
