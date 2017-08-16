@@ -57,7 +57,7 @@ main {
 }
 .index_sponsor_sign,
 .sponsors_sign {
-	background-color: #ff0000;	
+	background-color: #ff1a1a;	
 }
 .index_news_sign, 
 .index_photo_sign,
@@ -184,7 +184,8 @@ main {
 .index_groups,
 .index_excursion,
 .curent_event,
-.photo_text {
+.photo_text,
+.contact_form {
 	background: url(img/fon_down_all.jpg);
 	margin-bottom: 10px;
 	padding: 5px 0px;
@@ -275,8 +276,32 @@ padding: 15px 0px;
 .photo_text {
 	margin-bottom: 30px;
 }
+.photos img {
+	margin-bottom: 10px;
+}
+.photo_color {
+	background-color: #ff751a;
+}
 .contact_sign {
 	color: #1a75ff;
+}
+.contact_form {
+	padding: 15px;
+}
+.contact_form h2 {
+	color: #ff1a1a;	
+}
+.contact_form label {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.contact_form input {
+	padding-left: 10px;
+}
+.contact_form button {
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 .footer_logo {
 background: #d6d6c2;
@@ -572,71 +597,4 @@ table tr:nth-child(2n) {
 	table td {
 		font-size: 12px;
 	}
-}
-/*-------------*/
-
-.block1,
-.block2,
-.block3,
-.block4 {
-    font-size: 16px;
-    line-height: 2.4em;
-    border-bottom: 1px solid #eee;
-    text-indent: 10px;
-}
-
-.block1:hover,
-.block2:hover,
-.block3:hover,
-.block4:hover {
-    background-color: #cce6ff;
-    cursor: pointer;
-}
-
-.block1:after {
-    box-sizing: content-box;
-    content: url("img/team.png");
-    float: right;
-    opacity: 0.5;
-    padding-top: 5px;
-    height: 32px;
-}
-
-.block2:after {
-    content: url("img/person.png");
-    float: right;
-    opacity: 0.5;
-    padding-top: 5px;
-    height: 32px;
-}
-
-.block3:after {
-    content: url("img/worldwide.png");
-    float: right;
-    opacity: 0.5;
-    padding-top: 5px;
-    height: 32px;
-}
-
-.block4:after {
-    content: url("img/photo.png");
-    float: right;
-    opacity: 0.5;
-    padding-top: 5px;
-    height: 32px;
-}
-
-.img-icons {
-    opacity: 0.5;
-    border-top: 1px solid #000;
-    float: right;
-}
-
-.img-icons:hover {
-    opacity: 1;
-    cursor: pointer;
-}
-
-.img-icons img {
-    margin: 0 auto;
 }
